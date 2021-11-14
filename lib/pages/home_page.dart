@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
             Expanded(
                 child: Center(
               child: Text(
-                'welcome',
+                'ana',
                 style: TextStyle(
                   fontSize: 20,
                 ),
@@ -28,21 +28,6 @@ class _HomePageState extends State<HomePage> {
             )),
             Row(
               children: [
-                Expanded(
-                    child: FlatButton(
-                  height: 45,
-                  color: Colors.red,
-                  onPressed: () {
-                    context.locale = Locale('ru', 'RU');
-                  },
-                  child: Text(
-                    "Russian",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                )),
-                SizedBox(
-                  width: 10,
-                ),
                 Expanded(
                     child: FlatButton(
                   height: 45,
@@ -63,10 +48,10 @@ class _HomePageState extends State<HomePage> {
                   height: 45,
                   color: Colors.blue,
                   onPressed: () {
-                    context.locale = Locale('uz', 'UZ');
+                    context.locale = Locale('ko', 'KR');
                   },
                   child: Text(
-                    "Uzbek",
+                    "Korean",
                     style: TextStyle(color: Colors.white),
                   ),
                 )),
@@ -78,10 +63,10 @@ class _HomePageState extends State<HomePage> {
                   height: 45,
                   color: Colors.yellow[800],
                   onPressed: () {
-                    context.locale = Locale('fr', 'FR');
+                    context.locale = Locale('ja', 'JP');
                   },
                   child: Text(
-                    "French",
+                    "Japanese",
                     style: TextStyle(color: Colors.white),
                   ),
                 ))

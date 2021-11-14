@@ -44,6 +44,8 @@
     	<string>en</string>
     	<string>ru</string>
     	<string>uz</string>
+    	<string>ja</string>
+        <string>ko</string>
     </array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
