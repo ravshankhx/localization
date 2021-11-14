@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
             Expanded(
                 child: Center(
               child: Text(
-                'ana',
+                'flutter',
                 style: TextStyle(
                   fontSize: 20,
                 ),
